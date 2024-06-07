@@ -1,0 +1,98 @@
+﻿@model GuardReportAddRequest
+@{
+    ViewBag.Title = "Create report";
+    ViewBag.CurrentUrl = "~/Guard/CreateReport";
+}
+
+<div class="flex">
+    <div class="flex-1">
+        <div class="text-grey">
+            <span>Guard Page</span>
+            <i class="fa-solid fa-caret-right"></i>
+            <span class="text-grey">Order details</span>
+            <i class="fa-solid fa-caret-right"></i>
+            <span class="text-grey">Add new guard report</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="form-container">
+    <h2 class="text-large">Add Report</h2>
+
+    <form asp-controller="Guard" asp-action="CreateReport" asp-route-territoryID="@ViewBag.TerritoryId" method="post">
+        @*GuardExstentionsId*@
+        <input type="hidden" asp-for="GuardExstensionsId" class="form-input"  />
+        @*OrderId*@
+        <input type="hidden" asp-for="OrderId" class="form-input"/>
+        @*Date*@
+        <div class="form-field flex">
+            <div class="w-25">
+                <label asp-for="Date" class="form-label pt">Descriptions</label>
+            </div>
+            <div class="flex-1">
+                <input type="text" value="@Model.Date.ToString()" class="form-input" disabled="disabled" />
+                <input asp-for="Date" value="@Model.Date" class="form-input" type="hidden"/>
+                <span asp-validation-for="Date" class="text-red"></span>
+            </div>
+        </div>
+        @*Message*@
+        <div class="form-field flex">
+            <div class="w-25">
+                <label class="form-label">Message</label>
+            </div>
+            <div class="flex-1">
+                @{
+                    string[] types = (string[])Enum.GetNames(typeof(MessageValueOptions));
+                }
+                @foreach (string type in types)
+                {
+                    <div>
+                        <input type="radio" asp-for="Message" value="@type" class="ml" />
+                        <label for="@type">@type</label>
+                    </div>
+                }
+                <span asp-validation-for="Message" class="text-red"></span>
+            </div>
+        </div>
+        @*Descriptions*@
+        <div class="form-field flex">
+            <div class="w-25">
+                <label asp-for="Descriptions" class="form-label pt">Descriptions</label>
+            </div>
+            <div class="flex-1">
+                <input asp-for="Descriptions" class="form-input" />
+                <span asp-validation-for="Descriptions" class="text-red"></span>
+            </div>
+        </div>
+        @*Submit*@
+        <div class="form-field flex">
+            <div class="w-25">
+            </div>
+            <div class="flex-1">
+                <button class="button button-green-back">Add new report</button>
+                <div asp-validation-summary="All" class="text-red"></div>
+                @if (ViewBag.Errors != null)
+                {
+                    <div class="text-red ml">
+                        <ul>
+                            @foreach (string error in ViewBag.Errors)
+                            {
+                                <li class="ml">@error</li>
+                            }
+                        </ul>
+                    </div>
+                }
+            </div>
+        </div>
+    </form>
+</div>
+
+@section scripts
+{
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" asp-fallback-test="window.jQuery" asp-fallback-src="~/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js" asp-fallback-test="window.jQuery.validator" asp-fallback-src="~/jquery.validate.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/4.0.0/jquery.validate.unobtrusive.min.js" asp-fallback-test="window.jQuery.validator.unobstrusive" asp-fallback-src="~/jquery.validate.unobtrusive.min.js"></script>
+}
