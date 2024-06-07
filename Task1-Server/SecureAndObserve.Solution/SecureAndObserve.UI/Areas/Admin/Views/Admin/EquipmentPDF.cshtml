@@ -1,0 +1,27 @@
+﻿@model IEnumerable<EquipmentResponse>
+@{
+    Layout = null;
+}
+<link href="@("http://" + Context.Request.Host.ToString() + "/Stylesheet.css")" rel="stylesheet" />
+<h1>Equipment</h1>
+<table class="table w-100 mt persons">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Amount</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (EquipmentResponse equipment in Model)
+        {
+            <tr>
+                <td style="width:35%">@equipment.Name</td>
+                <td style="width:20%">@equipment.Type</td>
+                <td style="width:20%">@equipment.Amount</td>
+
+            </tr>
+        }
+    </tbody>
+</table>

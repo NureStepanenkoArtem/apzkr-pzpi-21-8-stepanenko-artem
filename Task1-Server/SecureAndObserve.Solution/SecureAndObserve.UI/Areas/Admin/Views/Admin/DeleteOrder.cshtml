@@ -1,0 +1,86 @@
+﻿@model OrderResponse
+@{
+    ViewBag.Title = "Edit Order";
+    ViewBag.CurrentUrl = "~/Admin/Orders/DeleteOrder";
+}
+
+<div class="flex">
+    <div class="flex-1">
+        <div class="text-grey">
+            <span>Admin Panel</span>
+            <i class="fa-solid fa-caret-right"></i>
+            <span class="text-grey">Orders</span>
+            <i class="fa-solid fa-caret-right"></i>
+            <span class="text-grey">Delete Order</span>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="form-container">
+    <a asp-controller="Admin" asp-action="Orders" class="link-hover">Back to Orders List</a>
+    <h2 class="text-large">Edit Order</h2>
+    <form asp-controller="Admin" asp-action="DeleteOrder" asp-route-orderID="@Model.Id" method="post">
+        <input type="hidden" asp-for="Id"></input>
+        @*OwnerId*@
+        <div class="form-field flex">
+            <div class="w-25">
+                <label asp-for="OwnerId" class="form-label pt">OwnerId</label>
+            </div>
+            <div class="flex-1">
+                <input asp-for="OwnerId" class="form-input" />
+                <span asp-validation-for="OwnerId" class="text-red"></span>
+            </div>
+        </div>
+        @*TypeOfService*@
+        <div class="form-field flex">
+            <div class="w-25">
+                <label asp-for="TypeOfService" class="form-label pt">TypeOfService</label>
+            </div>
+            <div class="flex-1">
+                <input asp-for="TypeOfService" class="form-input" />
+                <span asp-validation-for="TypeOfService" class="text-red"></span>
+            </div>
+        </div>
+        @*SecurityLevel*@
+        <div class="form-field flex">
+            <div class="w-25">
+                <label asp-for="SecurityLevel" class="form-label pt">SecurityLevel</label>
+            </div>
+            <div class="flex-1">
+                <input asp-for="SecurityLevel" class="form-input" />
+                <span asp-validation-for="SecurityLevel" class="text-red"></span>
+            </div>
+        </div>
+        @*Submit*@
+        <div class="form-field flex">
+            <div class="w-25">
+            </div>
+            <div class="flex-1">
+                <button class="button button-red-back">Delete order</button>
+                <div asp-validation-summary="All" class="text-red"></div>
+                @if (ViewBag.Errors != null)
+                {
+                    <div class="text-red ml">
+                        <ul>
+                            @foreach (string error in ViewBag.Errors)
+                            {
+                                <li class="ml">@error</li>
+                            }
+                        </ul>
+                    </div>
+                }
+            </div>
+        </div>
+    </form>
+</div>
+
+@section scripts
+{
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" asp-fallback-test="window.jQuery" asp-fallback-src="~/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js" asp-fallback-test="window.jQuery.validator" asp-fallback-src="~/jquery.validate.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/4.0.0/jquery.validate.unobtrusive.min.js" asp-fallback-test="window.jQuery.validator.unobstrusive" asp-fallback-src="~/jquery.validate.unobtrusive.min.js"></script>
+}

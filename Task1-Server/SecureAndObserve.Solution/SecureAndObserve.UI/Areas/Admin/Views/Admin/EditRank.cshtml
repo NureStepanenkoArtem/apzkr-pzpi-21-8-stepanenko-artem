@@ -1,0 +1,86 @@
+﻿@model RankResponse
+@{
+    ViewBag.Title = "Edit Rank";
+    ViewBag.CurrentUrl = "~/Admin/Territories/EditRank";
+}
+
+<div class="flex">
+    <div class="flex-1">
+        <div class="text-grey">
+            <span>Admin Panel</span>
+            <i class="fa-solid fa-caret-right"></i>
+            <span class="text-grey">Ranks</span>
+            <i class="fa-solid fa-caret-right"></i>
+            <span class="text-grey">Edit Rank</span>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="form-container">
+    <a asp-controller="Admin" asp-action="Ranks" class="link-hover">Back to Ranks List</a>
+    <h2 class="text-large">Edit Rank</h2>
+    <form asp-controller="Admin" asp-action="EditRank" method="post">
+        <input type="hidden" asp-for="Id"></input>
+        @*Name*@
+        <div class="form-field flex">
+            <div class="w-25">
+                <label asp-for="Name" class="form-label pt">Territory Name</label>
+            </div>
+            <div class="flex-1">
+                <input asp-for="Name" class="form-input" />
+                <span asp-validation-for="Name" class="text-red"></span>
+            </div>
+        </div>
+        @*PayPerHour*@
+        <div class="form-field flex">
+            <div class="w-25">
+                <label asp-for="PayPerHour" class="form-label pt">Pay Per Hour</label>
+            </div>
+            <div class="flex-1">
+                <input asp-for="PayPerHour" class="form-input" />
+                <span asp-validation-for="PayPerHour" class="text-red"></span>
+            </div>
+        </div>
+        @*Desc*@
+        <div class="form-field flex">
+            <div class="w-25">
+                <label asp-for="Description" class="form-label pt">Description</label>
+            </div>
+            <div class="flex-1">
+                <input asp-for="Description" class="form-input" />
+                <span asp-validation-for="Description" class="text-red"></span>
+            </div>
+        </div>
+        @*Submit*@
+        <div class="form-field flex">
+            <div class="w-25">
+            </div>
+            <div class="flex-1">
+                <button class="button button-green-back">Update rank data</button>
+                <div asp-validation-summary="All" class="text-red"></div>
+                @if (ViewBag.Errors != null)
+                {
+                    <div class="text-red ml">
+                        <ul>
+                            @foreach (string error in ViewBag.Errors)
+                            {
+                                <li class="ml">@error</li>
+                            }
+                        </ul>
+                    </div>
+                }
+            </div>
+        </div>
+    </form>
+</div>
+
+@section scripts
+{
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" asp-fallback-test="window.jQuery" asp-fallback-src="~/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js" asp-fallback-test="window.jQuery.validator" asp-fallback-src="~/jquery.validate.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/4.0.0/jquery.validate.unobtrusive.min.js" asp-fallback-test="window.jQuery.validator.unobstrusive" asp-fallback-src="~/jquery.validate.unobtrusive.min.js"></script>
+}
