@@ -1,0 +1,17 @@
+C:\Users\STyomich\Documents\ХНУРЭ 3 курс\Архітектура програмного забезпечення\SecureAndObserve.Solution\SecureAndObserve.Infrastructure\bin\Debug\net6.0\SecureAndObserve.Infrastructure.deps.json
+C:\Users\STyomich\Documents\ХНУРЭ 3 курс\Архітектура програмного забезпечення\SecureAndObserve.Solution\SecureAndObserve.Infrastructure\bin\Debug\net6.0\SecureAndObserve.Infrastructure.dll
+C:\Users\STyomich\Documents\ХНУРЭ 3 курс\Архітектура програмного забезпечення\SecureAndObserve.Solution\SecureAndObserve.Infrastructure\bin\Debug\net6.0\SecureAndObserve.Infrastructure.pdb
+C:\Users\STyomich\Documents\ХНУРЭ 3 курс\Архітектура програмного забезпечення\SecureAndObserve.Solution\SecureAndObserve.Infrastructure\bin\Debug\net6.0\SecureAndObserve.Core.dll
+C:\Users\STyomich\Documents\ХНУРЭ 3 курс\Архітектура програмного забезпечення\SecureAndObserve.Solution\SecureAndObserve.Infrastructure\bin\Debug\net6.0\SecureAndObserve.Core.pdb
+C:\Users\STyomich\Documents\ХНУРЭ 3 курс\Архітектура програмного забезпечення\SecureAndObserve.Solution\SecureAndObserve.Infrastructure\obj\Debug\net6.0\SecureAndObserve.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\STyomich\Documents\ХНУРЭ 3 курс\Архітектура програмного забезпечення\SecureAndObserve.Solution\SecureAndObserve.Infrastructure\obj\Debug\net6.0\SecureAndObserve.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\STyomich\Documents\ХНУРЭ 3 курс\Архітектура програмного забезпечення\SecureAndObserve.Solution\SecureAndObserve.Infrastructure\obj\Debug\net6.0\SecureAndObserve.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\STyomich\Documents\ХНУРЭ 3 курс\Архітектура програмного забезпечення\SecureAndObserve.Solution\SecureAndObserve.Infrastructure\obj\Debug\net6.0\SecureAndObserve.Infrastructure.AssemblyInfo.cs
+C:\Users\STyomich\Documents\ХНУРЭ 3 курс\Архітектура програмного забезпечення\SecureAndObserve.Solution\SecureAndObserve.Infrastructure\obj\Debug\net6.0\SecureAndObserve.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\STyomich\Documents\ХНУРЭ 3 курс\Архітектура програмного забезпечення\SecureAndObserve.Solution\SecureAndObserve.Infrastructure\obj\Debug\net6.0\SecureAn.2A2C4C76.Up2Date
+C:\Users\STyomich\Documents\ХНУРЭ 3 курс\Архітектура програмного забезпечення\SecureAndObserve.Solution\SecureAndObserve.Infrastructure\obj\Debug\net6.0\SecureAndObserve.Infrastructure.dll
+C:\Users\STyomich\Documents\ХНУРЭ 3 курс\Архітектура програмного забезпечення\SecureAndObserve.Solution\SecureAndObserve.Infrastructure\obj\Debug\net6.0\refint\SecureAndObserve.Infrastructure.dll
+C:\Users\STyomich\Documents\ХНУРЭ 3 курс\Архітектура програмного забезпечення\SecureAndObserve.Solution\SecureAndObserve.Infrastructure\obj\Debug\net6.0\SecureAndObserve.Infrastructure.pdb
+C:\Users\STyomich\Documents\ХНУРЭ 3 курс\Архітектура програмного забезпечення\SecureAndObserve.Solution\SecureAndObserve.Infrastructure\obj\Debug\net6.0\ref\SecureAndObserve.Infrastructure.dll
+C:\Users\STyomich\Documents\ХНУРЭ 3 курс\Архітектура програмного забезпечення\SecureAndObserve.Solution\SecureAndObserve.Infrastructure\bin\Debug\net6.0\SecureAndObserve.Infrastructure.runtimeconfig.json
+C:\Users\STyomich\Documents\ХНУРЭ 3 курс\Архітектура програмного забезпечення\SecureAndObserve.Solution\SecureAndObserve.Infrastructure\obj\Debug\net6.0\SecureAndObserve.Infrastructure.genruntimeconfig.cache
