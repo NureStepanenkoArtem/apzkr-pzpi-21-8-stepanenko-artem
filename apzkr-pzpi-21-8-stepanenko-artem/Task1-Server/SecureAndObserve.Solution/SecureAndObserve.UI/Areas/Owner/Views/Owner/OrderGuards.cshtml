@@ -1,0 +1,58 @@
+﻿@{
+    ViewBag.Title = "Owner - Order details";
+    ViewBag.CurrentUrl = "~/Owner/OrderGuards";
+}
+
+<div class="flex">
+    <div class="flex-1">
+        <div class="text-grey">
+            <span>Owner Page</span>
+            <i class="fa-solid fa-caret-right"></i>
+            <span class="text-grey">Order details</span>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="form-container">
+    <a asp-controller="Owner" asp-action="Index" class="link-hover">Back to Territories List</a>
+    <h2 class="text-large">Order details</h2>
+    <h3>Order details in amount of guards and payment details</h3>
+        @*Amount of guards*@
+        <div class="form-field flex">
+            <div class="w-25">
+                <label class="form-label pt">Amount of guards assigned to this order</label>
+            </div>
+            <div class="flex-1">
+                <input class="form-input" disabled="disabled" value="@ViewBag.AmountOfGuards" />
+                <span vlass="text-red"></span>
+            </div>
+        </div>
+    @*OrientedPayPerHour*@
+        <div class="form-field flex">
+            <div class="w-25">
+                <label class="form-label pt">Oriented pay per hour value for all guards</label>
+            </div>
+            <div class="flex-1">
+                <input class="form-input" disabled="disabled" value="@ViewBag.OrientedPayPerHour $" />
+                <span vlass="text-red"></span>
+            </div>
+        </div>
+
+    <div class="form-field flex">
+        <div class="w-25">
+            <label class="form-label pt text-red">! Notice !</label>
+            <label class="form-label">Your parameters in order impact on payment for all guards.</label>
+        </div>
+    </div>
+</div>
+
+@section scripts
+{
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" asp-fallback-test="window.jQuery" asp-fallback-src="~/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js" asp-fallback-test="window.jQuery.validator" asp-fallback-src="~/jquery.validate.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/4.0.0/jquery.validate.unobtrusive.min.js" asp-fallback-test="window.jQuery.validator.unobstrusive" asp-fallback-src="~/jquery.validate.unobtrusive.min.js"></script>
+}
