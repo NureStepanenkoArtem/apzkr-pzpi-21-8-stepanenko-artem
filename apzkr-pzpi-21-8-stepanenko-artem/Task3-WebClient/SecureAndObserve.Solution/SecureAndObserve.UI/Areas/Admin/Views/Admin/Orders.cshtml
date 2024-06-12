@@ -1,0 +1,81 @@
+﻿@model IEnumerable<OrderResponse>
+@{
+    ViewBag.Title = "Orders";
+    ViewBag.CurrentUrl = "~/Admin/Orders";
+}
+<form asp-controller="Admin" asp-action="Orders" method="get">
+    <!--breadcrumb starts-->
+    <div class="flex">
+        <div class="flex-1">
+            <div class="text-grey">
+                <span>Admin Panel</span>
+                <i class="fa-solid fa-caret-right"></i>
+                <span class="text-grey">Orders</span>
+            </div>
+        </div>
+    </div>
+    <!--breadcrumb ends-->
+    <div class="table-container">
+        <div class="flex">
+            <div class="flex-1">
+                <h1>Orders</h1>
+            </div>
+            <div class="flex-3 text-right">
+                <label>Search by:</label>
+                <select class="search-dropdown" name="searchBy" style="width:200px">
+                    @foreach (var field in ViewBag.SearchFields)
+                    {
+                        if (field.Key == ViewBag.CurrentSearchBy)
+                        {
+                            <option value="@field.Key" selected="selected">@field.Value</option>
+                        }
+                        <option value="@field.Key">@field.Value</option>
+                    }
+                    @* Eg: searchBy=PersonName&searchString=abc *@
+                </select>
+                <input type="search" id="Search" class="search-text" placeholder="Search" name="searchString" value="@ViewBag.CurrentSearchString" style="width:200px" />
+
+                <button class="search-button">Search</button>
+                <a asp-controller="Admin" asp-action="Orders" class="ml link-hover">Clear all</a>
+            </div>
+        </div>
+
+
+
+        <table class="table w-100 mt persons">
+            <thead>
+                <tr>
+                    @await Html.PartialAsync("_OrdersHelper", new ViewDataDictionary(ViewData){
+                    {"ColumnName", nameof(OrderResponse.OwnerId)},
+                    {"DisplayName", "OwnerId"},
+                    })
+                    @await Html.PartialAsync("_OrdersHelper", new ViewDataDictionary(ViewData){
+                    {"ColumnName", nameof(OrderResponse.TypeOfService)},
+                    {"DisplayName", "TypeOfService"},
+                    })
+                    @await Html.PartialAsync("_OrdersHelper", new ViewDataDictionary(ViewData){
+                    {"ColumnName", nameof(OrderResponse.SecurityLevel)},
+                    {"DisplayName", "SecurityLevel"},
+                    })
+                    <th>Options</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (OrderResponse order in Model)
+                {
+                    <tr>
+                        <td style="width:15%">@order.OwnerId</td>
+                        <td style="width:10%">@order.TypeOfService</td>
+                        <td style="width:30%">@order.SecurityLevel</td>
+                        <td style="width:15%">
+                            <a asp-controller="Admin" asp-action="EditOrder" asp-route-orderID="@order.Id" class="button-link button-blue-back">Edit</a>
+                            <a asp-controller="Admin" asp-action="DeleteOrder" asp-route-orderID="@order.Id" class="button-link button-red-back">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+</form>

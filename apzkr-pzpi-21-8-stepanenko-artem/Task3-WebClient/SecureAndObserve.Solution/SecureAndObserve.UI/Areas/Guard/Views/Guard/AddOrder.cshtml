@@ -1,0 +1,77 @@
+﻿@model OrderResponse
+@{
+    ViewBag.Title = "Assign me to order";
+    ViewBag.CurrentUrl = "~/Guard/AddOrder";
+}
+
+<div class="flex">
+    <div class="flex-1">
+        <div class="text-grey">
+            <span>Guard Page</span>
+            <i class="fa-solid fa-caret-right"></i>
+            <span class="text-grey">Available orders</span>
+            <i class="fa-solid fa-caret-right"></i>
+            <span class="text-grey">Assign to order</span>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="form-container">
+    <a asp-controller="Guard" asp-action="Orders" class="link-hover">Back to Orders List</a>
+    <h2 class="text-large">Assign to order</h2>
+    <h3>Are you sure to join this order?</h3>
+    <form asp-controller="Guard" asp-action="AddOrder" method="post">
+        <input type="hidden" asp-for="Id"></input>
+        @*TypeOfService*@
+        <div class="form-field flex">
+            <div class="w-25">
+                <label asp-for="TypeOfService" class="form-label pt">Type of service</label>
+            </div>
+            <div class="flex-1">
+                <input asp-for="TypeOfService" class="form-input" disabled="disabled" />
+                <span asp-validation-for="TypeOfService" class="text-red"></span>
+            </div>
+        </div>
+        @*SecurityLevel*@
+        <div class="form-field flex">
+            <div class="w-25">
+                <label asp-for="SecurityLevel" class="form-label pt">Security level</label>
+            </div>
+            <div class="flex-1">
+                <input asp-for="SecurityLevel" class="form-input" disabled="disabled" />
+                <span asp-validation-for="SecurityLevel" class="text-red"></span>
+            </div>
+        </div>
+        @*Submit*@
+        <div class="form-field flex">
+            <div class="w-25">
+            </div>
+            <div class="flex-1">
+                <button class="button button-blue-back">Join to this order</button>
+                <div asp-validation-summary="All" class="text-red"></div>
+                @if (ViewBag.Errors != null)
+                {
+                    <div class="text-red ml">
+                        <ul>
+                            @foreach (string error in ViewBag.Errors)
+                            {
+                                <li class="ml">@error</li>
+                            }
+                        </ul>
+                    </div>
+                }
+            </div>
+        </div>
+    </form>
+</div>
+
+@section scripts
+{
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" asp-fallback-test="window.jQuery" asp-fallback-src="~/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js" asp-fallback-test="window.jQuery.validator" asp-fallback-src="~/jquery.validate.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/4.0.0/jquery.validate.unobtrusive.min.js" asp-fallback-test="window.jQuery.validator.unobstrusive" asp-fallback-src="~/jquery.validate.unobtrusive.min.js"></script>
+}

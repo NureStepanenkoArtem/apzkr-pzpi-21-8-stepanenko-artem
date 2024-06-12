@@ -1,0 +1,207 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SecureAndObserve.UI
+build_property.RootNamespace = SecureAndObserve.UI
+build_property.ProjectDir = C:\Users\STyomich\Documents\ХНУРЭ 3 курс\Архітектура програмного забезпечення\SecureAndObserve.Solution\SecureAndObserve.UI\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\STyomich\Documents\ХНУРЭ 3 курс\Архітектура програмного забезпечення\SecureAndObserve.Solution\SecureAndObserve.UI
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Areas/Admin/Views/Admin/AddEquipment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cQWRkRXF1aXBtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Areas/Admin/Views/Admin/DeleteEquipment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cRGVsZXRlRXF1aXBtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Areas/Admin/Views/Admin/DeleteOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cRGVsZXRlT3JkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Areas/Admin/Views/Admin/DeleteTerritory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cRGVsZXRlVGVycml0b3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Areas/Admin/Views/Admin/EditEquipment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cRWRpdEVxdWlwbWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Areas/Admin/Views/Admin/EditOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cRWRpdE9yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Areas/Admin/Views/Admin/EditRank.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cRWRpdFJhbmsuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Areas/Admin/Views/Admin/EditTerritory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cRWRpdFRlcnJpdG9yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Areas/Admin/Views/Admin/Equipment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cRXF1aXBtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Areas/Admin/Views/Admin/EquipmentPDF.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cRXF1aXBtZW50UERGLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Areas/Admin/Views/Admin/Orders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cT3JkZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Areas/Admin/Views/Admin/Ranks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cUmFua3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Areas/Admin/Views/Admin/Territories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cVGVycml0b3JpZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Areas/Admin/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Areas/Admin/Views/Shared/_OrdersHelper.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9PcmRlcnNIZWxwZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Areas/Admin/Views/Shared/_TerritoriesHelper.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9UZXJyaXRvcmllc0hlbHBlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Areas/Guard/Views/Guard/AddEquipment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcR3VhcmRcVmlld3NcR3VhcmRcQWRkRXF1aXBtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Areas/Guard/Views/Guard/AddOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcR3VhcmRcVmlld3NcR3VhcmRcQWRkT3JkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Areas/Guard/Views/Guard/CreateReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcR3VhcmRcVmlld3NcR3VhcmRcQ3JlYXRlUmVwb3J0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Areas/Guard/Views/Guard/EquipmentDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcR3VhcmRcVmlld3NcR3VhcmRcRXF1aXBtZW50RGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Areas/Guard/Views/Guard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcR3VhcmRcVmlld3NcR3VhcmRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Areas/Guard/Views/Guard/MyEquipment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcR3VhcmRcVmlld3NcR3VhcmRcTXlFcXVpcG1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Areas/Guard/Views/Guard/Orders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcR3VhcmRcVmlld3NcR3VhcmRcT3JkZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Areas/Guard/Views/Guard/UnpinEquipment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcR3VhcmRcVmlld3NcR3VhcmRcVW5waW5FcXVpcG1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Areas/Guard/Views/Guard/ViewOrderDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcR3VhcmRcVmlld3NcR3VhcmRcVmlld09yZGVyRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Areas/Guard/Views/Guard/ViewReports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcR3VhcmRcVmlld3NcR3VhcmRcVmlld1JlcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Areas/Guard/Views/Shared/_GridColumnHeader.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcR3VhcmRcVmlld3NcU2hhcmVkXF9HcmlkQ29sdW1uSGVhZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Areas/Guard/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcR3VhcmRcVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Areas/Guard/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcR3VhcmRcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Areas/Guard/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcR3VhcmRcVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Areas/Owner/Views/Owner/CreateOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT3duZXJcVmlld3NcT3duZXJcQ3JlYXRlT3JkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Areas/Owner/Views/Owner/CreateTerritory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT3duZXJcVmlld3NcT3duZXJcQ3JlYXRlVGVycml0b3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Areas/Owner/Views/Owner/DeleteOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT3duZXJcVmlld3NcT3duZXJcRGVsZXRlT3JkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Areas/Owner/Views/Owner/EditTerritory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT3duZXJcVmlld3NcT3duZXJcRWRpdFRlcnJpdG9yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Areas/Owner/Views/Owner/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT3duZXJcVmlld3NcT3duZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Areas/Owner/Views/Owner/OrderGuards.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT3duZXJcVmlld3NcT3duZXJcT3JkZXJHdWFyZHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Areas/Owner/Views/Shared/_GridColumnHeader.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT3duZXJcVmlld3NcU2hhcmVkXF9HcmlkQ29sdW1uSGVhZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Areas/Owner/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT3duZXJcVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Areas/Owner/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT3duZXJcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Areas/Owner/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT3duZXJcVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Views/Home/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STyomich/Documents/ХНУРЭ 3 курс/Архітектура програмного забезпечення/SecureAndObserve.Solution/SecureAndObserve.UI/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
